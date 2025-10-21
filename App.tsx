@@ -49,7 +49,7 @@ const projects: Project[] = [
     id: 1,
     title: 'Kamalayan Uniform Sample',
     category: 'Sample',
-    imageUrl: '/pictures/pro1.png',
+    imageUrl: 'public/pictures/pro1.png',
     description: 'I',
     tools: ['Photoshop'],
   },
@@ -456,12 +456,14 @@ const App: React.FC = () => {
               className={`transform transition-all duration-1000 ease-out ${isMounted ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}
               style={{ transitionDelay: '200ms' }}
             >
-              <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}> 
-                  <img src="/maher.jpg" 
-                       alt="maher"
-                  className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
-                />
-              </div>
+    <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}>
+  <img 
+    src="/maher.jpg"
+    alt="Maher portrait"
+    className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
+  />
+</div>
+
             </div>
           </div>
 
