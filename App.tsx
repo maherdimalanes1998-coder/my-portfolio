@@ -458,7 +458,7 @@ const App: React.FC = () => {
             >
               <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}>
                 <img 
-                  src="maher.jpg"
+                  src="/public/maher.jpg"
                   alt="Maher, a graphic artist, wearing a brown hoodie"
                   className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
                 />
