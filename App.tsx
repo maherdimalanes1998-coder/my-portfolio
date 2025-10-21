@@ -179,49 +179,201 @@ const projects: Project[] = [
     category: 'Tarpaulin',
     imageUrl: '/pictures/pro17.png',
     description: '',
+interface Project {
+  id: number;
+  title: string;
+  category: string;
+  imageUrl: string;
+  description: string;
+  tools: string[];
+}
+
+interface Skill {
+  name: string;
+  level: number;
+}
+
+const projects: Project[] = [
+  {
+    id: 1,
+    title: 'Kamalayan Uniform Sample',
+    category: 'Sample',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro1.png`,
+    description: 'I',
     tools: ['Photoshop'],
   },
-   {
+  {
+    id: 2,
+    title: 'Kamalayan Uniform Sample',
+    category: 'Sample 2',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro2.jpg`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 3,
+    title: 'Kamalayan Uniform Sample',
+    category: 'Sample 3',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro3.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 4,
+    title: 'Kamalayan Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro4.jpg`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 5,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro5.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 6,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro6.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 7,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro7.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 8,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro8.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 9,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro9.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 10,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro10.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 11,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro11.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 12,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro12.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
     id: 13,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: '/pictures/pro18.png',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro13.png`,
     description: '',
     tools: ['Photoshop'],
   },
-   {
+  {
     id: 14,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: '/pictures/pro19.png',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro14.png`,
     description: '',
     tools: ['Photoshop'],
   },
-   {
+  {
     id: 15,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: '/pictures/pro20.png',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro15.png`,
     description: '',
     tools: ['Photoshop'],
   },
-   {
+  {
     id: 16,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: '/pictures/pro21.png',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro16.png`,
     description: '',
     tools: ['Photoshop'],
   },
-   {
+  {
     id: 17,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: '/pictures/pro22.png',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro17.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 18,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro18.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 19,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro19.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 20,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro20.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 21,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro21.png`,
+    description: '',
+    tools: ['Photoshop'],
+  },
+  {
+    id: 22,
+    title: 'Tarpaulin',
+    category: 'Tarpaulin',
+    imageUrl: `${import.meta.env.BASE_URL}pictures/pro22.png`,
     description: '',
     tools: ['Photoshop'],
   },
 ];
+
+export default projects;
+
 
 const skills: Skill[] = [
     { name: 'Adobe Photoshop', level: 95 },
@@ -456,9 +608,12 @@ const App: React.FC = () => {
               className={`transform transition-all duration-1000 ease-out ${isMounted ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}
               style={{ transitionDelay: '200ms' }}
             >
-    <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}>
-  <img 
-    src="/sample.png"
+    <div
+  className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]"
+  style={{ animationDelay: '1s' }}
+>
+  <img
+    src={`${import.meta.env.BASE_URL}sample.png`} // ✅ Correct for Vite base='./'
     alt="sample portrait"
     className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
   />
