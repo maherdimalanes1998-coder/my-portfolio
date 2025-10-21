@@ -456,9 +456,8 @@ const App: React.FC = () => {
               className={`transform transition-all duration-1000 ease-out ${isMounted ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}
               style={{ transitionDelay: '200ms' }}
             >
-              <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}>
-                <img 
-                  <img src="maher.jpg" alt="maher.jpg"/>
+              <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}> 
+                  <img src="public/maher.jpg" alt="maher"/>
                   className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
                 />
               </div>
