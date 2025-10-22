@@ -40,8 +40,8 @@ interface Project {
 }
 
 interface Skill {
-  name: string;
-  level: number;
+    name: string;
+    level: number;
 }
 
 const projects: Project[] = [
@@ -49,179 +49,180 @@ const projects: Project[] = [
     id: 1,
     title: 'Kamalayan Uniform Sample',
     category: 'Sample',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro1.png`,
-    description: 'I',
+    imageUrl: '/pictures/pro1.png',
+    description: 'A sample uniform design for Kamalayan.',
     tools: ['Photoshop'],
   },
   {
     id: 2,
     title: 'Kamalayan Uniform Sample',
     category: 'Sample 2',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro2.jpg`,
-    description: '',
+    imageUrl: '/pictures/pro2.jpg',
+    description: 'A second sample uniform design for Kamalayan.',
     tools: ['Photoshop'],
   },
   {
     id: 3,
     title: 'Kamalayan Uniform Sample',
     category: 'Sample 3',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro3.png`,
-    description: '',
+    imageUrl: '/pictures/pro3.png',
+    description: 'A third sample uniform design for Kamalayan.',
     tools: ['Photoshop'],
   },
   {
     id: 4,
     title: 'Kamalayan Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro4.jpg`,
-    description: '',
+    imageUrl: '/pictures/pro4.jpg',
+    description: 'Tarpaulin design for Kamalayan events.',
     tools: ['Photoshop'],
   },
   {
     id: 5,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro5.png`,
-    description: '',
+    imageUrl: '/pictures/pro5.png',
+    description: 'General purpose tarpaulin design.',
     tools: ['Photoshop'],
   },
   {
     id: 6,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro6.png`,
-    description: '',
+    imageUrl: '/pictures/pro6.png',
+    description: 'Another tarpaulin design for events.',
     tools: ['Photoshop'],
   },
   {
     id: 7,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro7.png`,
-    description: '',
+    imageUrl: '/pictures/pro7.png',
+    description: 'Creative tarpaulin layout.',
     tools: ['Photoshop'],
   },
   {
     id: 8,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro8.png`,
-    description: '',
+    imageUrl: '/pictures/pro8.png',
+    description: 'Event-specific tarpaulin design.',
     tools: ['Photoshop'],
   },
   {
     id: 9,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro9.png`,
-    description: '',
+    imageUrl: '/pictures/pro9.png',
+    description: 'Promotional tarpaulin artwork.',
     tools: ['Photoshop'],
   },
   {
     id: 10,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro10.png`,
-    description: '',
+    imageUrl: '/pictures/pro10.png',
+    description: 'A visually engaging tarpaulin design.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 11,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro11.png`,
-    description: '',
+    imageUrl: '/pictures/pro11.png',
+    description: 'Colorful tarpaulin for a special occasion.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 12,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro12.png`,
-    description: '',
+    imageUrl: '/pictures/pro12.png',
+    description: 'Corporate tarpaulin design.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 13,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro13.png`,
-    description: '',
+    imageUrl: '/pictures/pro13.png',
+    description: 'Modern and clean tarpaulin layout.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 14,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro14.png`,
-    description: '',
+    imageUrl: '/pictures/pro14.png',
+    description: 'Tarpaulin design for a product launch.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 15,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro15.png`,
-    description: '',
+    imageUrl: '/pictures/pro15.png',
+    description: 'Artistic tarpaulin concept.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 16,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro16.png`,
-    description: '',
+    imageUrl: '/pictures/pro16.png',
+    description: 'Festival tarpaulin design.',
     tools: ['Photoshop'],
   },
-  {
+   {
     id: 17,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro17.png`,
-    description: '',
+    imageUrl: '/pictures/pro17.png',
+    description: 'Minimalist tarpaulin design.',
     tools: ['Photoshop'],
   },
   {
     id: 18,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro18.png`,
-    description: '',
+    imageUrl: '/pictures/pro18.png',
+    description: 'Bold and impactful tarpaulin.',
     tools: ['Photoshop'],
   },
   {
     id: 19,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro19.png`,
-    description: '',
+    imageUrl: '/pictures/pro19.png',
+    description: 'Community event tarpaulin.',
     tools: ['Photoshop'],
   },
   {
     id: 20,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro20.png`,
-    description: '',
+    imageUrl: '/pictures/pro20.png',
+    description: 'School event tarpaulin design.',
     tools: ['Photoshop'],
   },
   {
     id: 21,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro21.png`,
-    description: '',
+    imageUrl: '/pictures/pro21.png',
+    description: 'Another creative take on tarpaulin design.',
     tools: ['Photoshop'],
   },
   {
     id: 22,
     title: 'Tarpaulin',
     category: 'Tarpaulin',
-    imageUrl: `${import.meta.env.BASE_URL}pictures/pro22.png`,
-    description: '',
+    imageUrl: '/pictures/pro22.png',
+    description: 'Final tarpaulin design in the series.',
     tools: ['Photoshop'],
   },
 ];
+
 const skills: Skill[] = [
     { name: 'Adobe Photoshop', level: 95 },
     { name: 'Adobe Illustrator', level: 90 },
@@ -455,17 +456,13 @@ const App: React.FC = () => {
               className={`transform transition-all duration-1000 ease-out ${isMounted ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0'}`}
               style={{ transitionDelay: '200ms' }}
             >
-    <div
-  className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]"
-  style={{ animationDelay: '1s' }}
->
-  <img
-    src={`${import.meta.env.BASE_URL}sample.png`} // ✅ Correct for Vite base='./'
-    alt="sample portrait"
-    className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
-  />
-</div>
-
+              <div className="relative rounded-full animate-[pulse-glow_6s_ease-in-out_infinite]" style={{animationDelay: '1s'}}>
+                <img 
+                  src="/pictures/sample.png"
+                  alt="Maher, a graphic artist"
+                  className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl object-contain filter drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
+                />
+              </div>
             </div>
           </div>
 
@@ -595,7 +592,7 @@ const App: React.FC = () => {
                   <div className="bg-yellow-400/10 p-3 rounded-full"><svg className="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg></div>
                   <div>
                     <h4 className="font-semibold text-lg text-white">Email</h4>
-                    <a href="maherdimalanes1998@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">maherdimalanes1998@gmail.com</a>
+                    <a href="mailto:maherdimalanes1998@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">maherdimalanes1998@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
