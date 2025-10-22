@@ -222,10 +222,6 @@ const projects: Project[] = [
     tools: ['Photoshop'],
   },
 ];
-
-export default projects;
-
-
 const skills: Skill[] = [
     { name: 'Adobe Photoshop', level: 95 },
     { name: 'Adobe Illustrator', level: 90 },
