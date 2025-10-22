@@ -527,7 +527,7 @@ const App: React.FC = () => {
           </div>
           <div className={`mt-12 ${getScrollTransition(isAboutInView, 'delay-400')}`}>
             <a
-              href="/RESUME MAHER .pdf"
+              href="/assets/RESUME MAHER .pdf"
               download="RESUME MAHER .pdf"
               className="inline-flex items-center gap-x-3 bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-lg hover:bg-yellow-500 transition-colors duration-300 shadow-lg hover:shadow-yellow-500/30"
             >

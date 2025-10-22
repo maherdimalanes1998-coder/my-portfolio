@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p public/assets && cp index.html public/index.html && (cp \"RESUME MAHER .pdf\" public/ || true) && (cp -r assets/. public/assets/ 2>/dev/null || :) && esbuild index.tsx --bundle --outfile=public/bundle.js --jsx=automatic --format=esm --external:react --external:react-dom/*"
+    "build": "mkdir -p public/assets && cp index.html public/index.html && (cp -r assets/. public/assets/ 2>/dev/null || :) && esbuild index.tsx --bundle --outfile=public/bundle.js --jsx=automatic --format=esm --external:react --external:react-dom/*"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
