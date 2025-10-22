@@ -1,21 +1,14 @@
 {
-  "name": "maher---graphic-artist-portfolio",
+  "name": "maher-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "build": "mkdir -p public/assets && cp index.html public/index.html && (cp \"RESUME MAHER .pdf\" public/ || true) && (cp -r assets/. public/assets/ 2>/dev/null || :) && esbuild index.tsx --bundle --outfile=public/bundle.js --jsx=automatic --format=esm --external:react --external:react-dom/*"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.0"
   }
 }
