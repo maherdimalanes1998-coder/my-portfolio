@@ -224,9 +224,9 @@ const projects: Project[] = [
 ];
 
 const skills: Skill[] = [
-    { name: 'Adobe Photoshop', level: 95 },
-    { name: 'Adobe Illustrator', level: 90 },
-    { name: 'Typography', level: 85 },
+    { name: 'Adobe Photoshop', level: 90 },
+    { name: 'Adobe Illustrator', level: 80 },
+    { name: 'Typography', level: 80 },
 ];
 
 
@@ -502,7 +502,7 @@ const App: React.FC = () => {
                   </div>
               </div>
                <div className={`${getMountedTransition('delay-[1300ms]')}`}>
-                   <p className="mt-6 text-amber-300/80 font-semibold tracking-wider">5+ Years of Professional Experience</p>
+                   <p className="mt-6 text-amber-300/80 font-semibold tracking-wider">2+ Years of Professional Experience</p>
                </div>
             </div>
           </div>
